@@ -33,27 +33,27 @@ export default function Navbar() {
             ?
             (
                 <div className="flex items-center justify-start gap-5">
-                    <p className="text-[0.5rem] font-dg underline underline-offset-4 decoration-1">Fashion</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Beauty</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Casa</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Food&Beverage</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">World</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Alta Moda</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Sustainability</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg underline underline-offset-4 decoration-1">Fashion</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Beauty</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Casa</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Food&Beverage</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">World</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Alta Moda</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Sustainability</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
                 </div>
             )
             :
             (
                 <div className="flex items-center justify-start gap-5">
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg underline underline-offset-4 decoration-1">Fashion</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Beauty</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Casa</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Food&Beverage</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">World</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Alta Moda</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Sustainability</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg underline underline-offset-4 decoration-1">Fashion</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Beauty</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Casa</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Food&Beverage</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">World</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Alta Moda</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Sustainability</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
                 </div>
             )
             }
@@ -62,9 +62,9 @@ export default function Navbar() {
             (
                 <div className="flex items-center justify-start gap-4">
                 <IoSearchOutline width={8} height={8}/>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Search</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Store Location</p>
-                    <p className="text-[0.5rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Login</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Search</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Store Location</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Login</p>
                     <BsBag width={8} height={8}/>
                 </div>
             )
@@ -72,9 +72,9 @@ export default function Navbar() {
             (
                 <div className="flex items-center justify-start gap-4">
                     <IoSearchOutline width={8} height={8} className="text-neutral-100 group-hover:text-neutral-800"/>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Search</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Store Location</p>
-                    <p className="text-[0.5rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Login</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Search</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Store Location</p>
+                    <p className="text-[0.5rem] lg:text-xs group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">Login</p>
                     <BsBag width={8} height={8} className="text-neutral-100 group-hover:text-neutral-800"/>
                 </div>
             )
@@ -95,29 +95,29 @@ export default function Navbar() {
         ?
         (
         <div className="flex items-center justify-center gap-4">
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">GIFTS</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">SNEAKERS LIMITED EDITION</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">NEW IN</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WOMEN</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MEN</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">CHILDREN</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">BAGS</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WATCHES <span className="px-0.5">&</span>JEWELRY</p>
-            <p className="text-[0.6rem] font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">GIFTS</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">SNEAKERS LIMITED EDITION</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">NEW IN</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WOMEN</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MEN</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">CHILDREN</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">BAGS</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WATCHES <span className="px-0.5">&</span>JEWELRY</p>
+            <p className="text-[0.6rem] lg:text-sm font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
         </div>
         )
         :
         (
         <div className="flex items-center justify-center gap-4">
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">GIFTS</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">SNEAKERS LIMITED EDITION</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">NEW IN</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WOMEN</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MEN</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">CHILDREN</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">BAGS</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WATCHES <span className="px-0.5">&</span>JEWELRY</p>
-            <p className="text-[0.6rem] group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">GIFTS</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">SNEAKERS LIMITED EDITION</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">NEW IN</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WOMEN</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MEN</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">CHILDREN</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">BAGS</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">WATCHES <span className="px-0.5">&</span>JEWELRY</p>
+            <p className="text-[0.6rem] lg:text-sm group-hover:text-neutral-800 text-neutral-100 font-dg hover:underline underline-offset-4 decoration-1 transition-all duration-300">MY DG</p>
         </div>
         )
         }
