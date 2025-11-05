@@ -9,7 +9,7 @@ export default function Section2() {
                 <p  className="text-xs lg:text-sm font-dg tracking-widest">FOR HIM</p>
             </div>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-7 px-4">
+        <div className="flex flex-wrap items-start justify-center gap-7 px-4">
             <div className="flex flex-col items-start justify-start gap-2">
                 <div className="relative bg-[url('/dg7.webp')] bg-cover bg-center bg-no-repeat h-65 w-50 pt-4 px-4">
                     <p className="absolute -rotate-90 text-[0.5rem] font-dg top-10 left-[-13]">NEW COLLECTION</p>
