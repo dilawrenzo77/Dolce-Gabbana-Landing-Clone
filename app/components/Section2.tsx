@@ -26,7 +26,7 @@ export default function Section2() {
                     <CiHeart width={10} height={10} className="absolute top-2 right-5"/>
                 </div>
                 <div className="flex flex-col items-start justify-start gap-2">
-                    <p className="text-[0.5rem] lg:text-xs font-dg tracking-widest">Calf saint tropez Light sneakers with leo print</p>
+                    <p className="text-[0.5rem] lg:text-xs font-dg tracking-widest">Calf saint tropez Light sneakers<br/> with leo print</p>
                     <p className="text-[0.5rem] lg:text-xs font-dg tracking-widest">&euro;795</p>
                 </div>
             </div>

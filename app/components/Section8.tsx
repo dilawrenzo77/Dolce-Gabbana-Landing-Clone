@@ -12,19 +12,19 @@ export default function Section8() {
             <div>
                 <p className="text-neutral-200 font-dg text-xs text-[0.5rem] lg:text-xs">RETURNS</p>
             </div>
-            <div className="w-full flex items-center justify-between sm:justify-center gap-2 ">
+            <div className="w-full flex items-center justify-between sm:justify-center gap-4">
                 <p className="text-neutral-200 font-dg text-xs text-[0.5rem] lg:text-xs">CUSTOMER CARE</p>
                 <span className="text-neutral-200 text-[0.5rem] lg:text-xs">+</span>
             </div>
-            <div className="w-full flex items-center justify-between sm:justify-center gap-2">
+            <div className="w-full flex items-center justify-between sm:justify-center gap-4">
                 <p className="text-neutral-200 font-dg text-xs text-[0.5rem] lg:text-xs">LEGAL AREA</p>
                 <span className="text-neutral-200 text-[0.5rem] lg:text-xs">+</span>
             </div>
-            <div className="w-full flex items-center justify-between sm:justify-center gap-2">
+            <div className="w-full flex items-center justify-between sm:justify-center gap-4">
                 <p className="text-neutral-200 font-dg text-xs text-[0.5rem] lg:text-xs">CORPRATE</p>
                 <span className="text-neutral-200 text-[0.5rem] lg:text-xs">+</span>
             </div>
-            <div className="w-full flex items-center justify-between sm:justify-center gap-2">
+            <div className="w-full flex items-center justify-between sm:justify-center gap-4">
                 <p className="text-neutral-200 font-dg text-[0.5rem] lg:text-xs">FOLLOW US</p>
                 <span className="text-neutral-200 text-[0.5rem] lg:text-xs">+</span>
             </div>
