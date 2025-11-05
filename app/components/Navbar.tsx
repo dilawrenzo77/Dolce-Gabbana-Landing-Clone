@@ -86,9 +86,9 @@ export default function Navbar() {
             <Image src="/dg.png" width={30} height={30} alt="d&g logo"/>
         : 
             <div className="flex items-end justify-center gap-4">
-                <p className="text-6xl font-semibold tracking-tighter lg:tracking-widest text-neutral-100 group-hover:text-neutral-800 transition-all duration-300">DOLCE</p>
+                <p className="text-6xl font-semibold lg:font-bold tracking-tighter text-neutral-100 group-hover:text-neutral-800 transition-all duration-300">DOLCE</p>
                 <span className="text-4xl font-semibold text-neutral-100 group-hover:text-neutral-800 transition-all duration-300">&</span>
-                <p className="text-6xl font-semibold tracking-tighter lg:tracking-widest text-neutral-100 group-hover:text-neutral-800 transition-all duration-300">GABBANA</p>
+                <p className="text-6xl font-semibold lg:font-bold  tracking-tighter text-neutral-100 group-hover:text-neutral-800 transition-all duration-300">GABBANA</p>
             </div>
         }
         {isScrolled
