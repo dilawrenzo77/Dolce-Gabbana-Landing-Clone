@@ -27,7 +27,7 @@ export default function Navbar() {
     },[]);
 
 
-    return <nav className={isScrolled ? "z-999 w-full px-5 py-3 flex flex-col items-center justify-start gap-4 fixed bg-neutral-100 transition-all duration-500" : "group hover:bg-neutral-200 z-999 w-full px-5 py-3 flex flex-col items-center justify-start gap-4 fixed transition-all duration-500"}>
+    return <nav className={isScrolled ? "z-999 w-full px-5 py-3 flex flex-col items-center justify-start gap-4 lg:gap-7 fixed bg-neutral-100 transition-all duration-500" : "group hover:bg-neutral-200 z-999 w-full px-5 py-3 flex flex-col items-center justify-start gap-4 lg:gap-7 fixed transition-all duration-500"}>
         <div className="flex items-center justify-between w-full">
             {isScrolled 
             ?
