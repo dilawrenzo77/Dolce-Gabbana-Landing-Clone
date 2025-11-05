@@ -1,6 +1,6 @@
 export default function Section7() {
     return <section className="bg-neutral-950 px-10 py-8 w-100dvw flex flex-col items-center justify-start gap-10 border-y border-neutral-500">
-        <p className="text-sm lg:text-md font-dg text-neutral-200">DOLCE<span className="text-[0.6rem] font-dg text-neutral-200">&</span>GABBANA</p>
+        <p className="text-sm lg:text-lg font-dg text-neutral-200">DOLCE<span className="text-[0.6rem] lg:text-sm font-dg text-neutral-200">&</span>GABBANA</p>
         <div className="w-full flex flex-col items-center justify-start gap-8 sm:flex-row sm:items-start sm:justify-between">
             <div className="flex flex-col items-start justify-start gap-5">
                 <div className="flex flex-col items-start justify-start gap-1">

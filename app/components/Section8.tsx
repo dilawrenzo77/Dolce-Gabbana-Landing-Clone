@@ -2,7 +2,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 export default function Section8() {
     return <section className="w-100dvw px-10 py-4 bg-neutral-950 flex flex-col items-start justify-start gap-4 sm:flex-row sm:items-start sm:justify-between border-b border-neutral-500">
-        <div className="flex flex-col items-start justify-start md:flex-row md:items-center md:justify-center gap-3">
+        <div className="flex flex-col items-start justify-start md:flex-row md:items-center md:justify-center gap-5">
             <div>
                 <p className="text-neutral-200 font-dg text-xs text-[0.5rem] lg:text-xs">SERVICES</p>
             </div>
